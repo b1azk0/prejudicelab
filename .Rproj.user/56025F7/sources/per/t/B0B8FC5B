@@ -1,23 +1,25 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1561555065027.000,
+    "created" : 1561561250259.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3920630657",
-    "id" : "B2BB662B",
+    "hash" : "2810109363",
+    "id" : "B0B8FC5B",
     "lastKnownWriteTime" : 1561555062,
     "last_content_update" : 1561555062,
-    "path" : "~/Documents/aResearch/R/prejudicelab/R/hello.R",
-    "project_path" : "R/hello.R",
+    "path" : "~/Documents/aResearch/R/prejudicelab/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
     "properties" : {
+        "cursorPosition" : "11,0",
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 1,
+    "relative_order" : 3,
     "source_on_save" : false,
     "source_window" : "",
-    "type" : "r_source"
+    "type" : "dcf"
 }
