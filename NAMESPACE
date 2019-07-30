@@ -1,6 +1,8 @@
 exportPattern("^[[:alpha:]]+")
 #' @import dplyr
-#' @import strengejacker
+#' @import strengejacke
 #' @import kableExtra
 #' @import ggplot2
 #' @import tidyr
+#' @import lavaan
+importFrom("stats", "cor", "df", "filter")
