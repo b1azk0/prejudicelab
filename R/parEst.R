@@ -1,7 +1,7 @@
 parEst <-
   function(fit = fit, format = "markdown") {
     parameterestimates(fit, standardized = TRUE) %>%
-      filter(!is.na(pvalue), op %in% c("~", ":=")) %>%
+      dplyr::filter(!is.na(pvalue), op %in% c("~", ":=")) %>%
       mutate(pval = ifelse(pvalue < .001, "<0.001", round(pvalue, 3))) %>%
       select(
         from = rhs,
@@ -16,7 +16,7 @@ parEst <-
       ) %>%
       kable(digits = 3, format = format, caption = "Unstandardized solution") %>% print()
     standardizedSolution(fit) %>%
-      filter(!is.na(pvalue), op %in% c("~", ":=")) %>%
+      dplyr::filter(!is.na(pvalue), op %in% c("~", ":=")) %>%
       mutate(pval = ifelse(pvalue < .001, "<0.001", round(pvalue, 3))) %>%
       select(
         from = rhs,

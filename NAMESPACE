@@ -5,4 +5,4 @@ exportPattern("^[[:alpha:]]+")
 #' @import ggplot2
 #' @import tidyr
 #' @import lavaan
-importFrom("stats", "cor", "df", "filter")
+
